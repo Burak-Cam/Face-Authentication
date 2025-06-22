@@ -1,0 +1,11 @@
+# Virtual env
+venv/
+__pycache__/
+
+# Model files (too large)
+*.dat
+*.caffemodel
+*.pkl
+
+# Face database
+database/
