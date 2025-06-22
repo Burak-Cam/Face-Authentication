@@ -21,11 +21,17 @@ Includes **blink & head turn-based liveness detection**, facial feature extracti
 ## 📁 Project Structure
 
 face_auth/
+
 ├── local_face_authf.py # Main app
+
 ├── requirements.txt # Dependencies
+
 ├── .gitignore
+
 ├── README.md
+
 ├── database/ # Contains captured user face images
+
 └── models/ # Put model files here (see below)
 
 
