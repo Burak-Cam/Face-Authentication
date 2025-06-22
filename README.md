@@ -39,7 +39,7 @@ Download them manually and place them in a `models/` folder (or root directory):
 | File | Description | Link |
 |------|-------------|------|
 | `shape_predictor_68_face_landmarks.dat` | Facial landmark predictor | [Download](https://github.com/ageitgey/face_recognition_models/blob/master/face_recognition_models/models/shape_predictor_68_face_landmarks.dat) |
-| `dlib_face_recognition_resnet_model_v1.dat` | Dlib's 128D face embedding model | [Download](http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2) |
+| `dlib_face_recognition_resnet_model_v1.dat` | Dlib's 128D face embedding model | [Download](https://github.com/ageitgey/face_recognition_models/blob/master/face_recognition_models/models/dlib_face_recognition_resnet_model_v1.dat) |
 | `res10_300x300_ssd_iter_140000_fp16.caffemodel` | OpenCV face detector | [Download](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector) |
 | `deploy.prototxt.txt` | Network config file for above model | [Download](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector) |
 
