@@ -31,22 +31,6 @@ face_auth/
 
 ---
 
-## 📦 Model Downloads
-
-This project requires 3 pre-trained models to run.  
-Download them manually and place them in a `models/` folder (or root directory):
-
-| File | Description | Link |
-|------|-------------|------|
-| `shape_predictor_68_face_landmarks.dat` | Facial landmark predictor | [Download](https://github.com/ageitgey/face_recognition_models/blob/master/face_recognition_models/models/shape_predictor_68_face_landmarks.dat) |
-| `dlib_face_recognition_resnet_model_v1.dat` | Dlib's 128D face embedding model | [Download](https://github.com/ageitgey/face_recognition_models/blob/master/face_recognition_models/models/dlib_face_recognition_resnet_model_v1.dat) |
-| `res10_300x300_ssd_iter_140000_fp16.caffemodel` | OpenCV face detector | [Download](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector) |
-| `deploy.prototxt.txt` | Network config file for above model | [Download](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector) |
-
-> 📝 **Note:** Extract `.bz2` files before use.
-
----
-
 ## ▶️ How to Run
 
 1. Install dependencies:
@@ -90,6 +74,21 @@ Liveness check passed ✅
 Authenticating user...
 Similarity: 0.91 ✅ Authenticated
 ```
+
+---
+
+## 📦 Model Downloads
+
+Download the following pre-trained models and place them in the project directory (or a `models/` folder):
+
+| File                                            | Description                     | Link                                                                                                                             |
+| ----------------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `shape_predictor_68_face_landmarks.dat`         | Facial landmark predictor       | [Download](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)                                                      |
+| `dlib_face_recognition_resnet_model_v1.dat`     | Dlib face embedding model       | [Download](http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2)                                                  |
+| `res10_300x300_ssd_iter_140000_fp16.caffemodel` | OpenCV face detector            | [Download](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/res10_300x300_ssd_iter_140000_fp16.caffemodel) |
+| `deploy.prototxt.txt`                           | Config for OpenCV face detector | [Download](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt)                               |
+
+📌 **Note:** `.bz2` files need to be extracted before use.
 
 ---
 
