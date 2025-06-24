@@ -105,9 +105,5 @@ If you use or modify this code, credit is appreciated.
 
 ---
 
-## 🖼️ Demo
-
-You can in
-
 * **Burak Çam**
 * [github.com/Burak-Cam](https://github.com/Burak-Cam)
